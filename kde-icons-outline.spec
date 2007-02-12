@@ -1,9 +1,9 @@
-#$Revision: 1.1 $, $Date: 2004-05-21 12:40:38 $
+#$Revision: 1.2 $, $Date: 2007-02-12 00:48:58 $
 
 %define         _name	outline
 
 Summary:	KDE icons - %{_name}
-Summary(pl):	Motyw ikon do KDE - %{_name}
+Summary(pl.UTF-8):   Motyw ikon do KDE - %{_name}
 Name:		kde-icons-%{_name}
 Version:	040521
 Release:	1
@@ -21,9 +21,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Outilne is an icon theme based on crystal (the default KDE icon theme), 
 which adds black solid outlines to crystal icons.
 
-%description -l pl
-Outline to motyw ikon oparty o Crystal (domy¶lny motyw ikon w KDE),
-który dodaje do tych ikon czarn± obwódkê.
+%description -l pl.UTF-8
+Outline to motyw ikon oparty o Crystal (domyÅ›lny motyw ikon w KDE),
+ktÃ³ry dodaje do tych ikon czarnÄ… obwÃ³dkÄ™.
 
 %prep
 
